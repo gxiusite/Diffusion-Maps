@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: diffmaps
+Version: 0.0.1
+Summary: Clear code of diffusion mapping with fast correlation functions.
+Author: Gezhi Xiu
+Author-email: gezhixiu@gmail.com

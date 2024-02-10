@@ -1,0 +1,9 @@
+README.md
+setup.py
+diffmaps/__init__.py
+diffmaps/diffmaps.py
+diffmaps.egg-info/PKG-INFO
+diffmaps.egg-info/SOURCES.txt
+diffmaps.egg-info/dependency_links.txt
+diffmaps.egg-info/requires.txt
+diffmaps.egg-info/top_level.txt
