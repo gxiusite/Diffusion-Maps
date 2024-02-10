@@ -14,10 +14,9 @@ class DiffusionMaps:
         n_largest=100,
         abs_value=False,
         demean=True,
-        how="pearson",
-        print_log=True,
+        how="pearson"
     ):
-        self.data = data
+        self.data = torch.Tensor(data)
         self.batch_size = batch_size
         self.n_largest = n_largest
         self.abs_value = abs_value
@@ -122,6 +121,7 @@ class DiffusionMaps:
         abs_value=False,
         demean=True,
     ):
+        part = torch.Tensor(part)
         part_nanmean = torch.nanmean(part, dim=0, keepdim=True)
         whole_nanmean = torch.nanmean(whole, dim=0, keepdim=True)
 
