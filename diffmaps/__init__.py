@@ -1,1 +1,1 @@
-from .diffmaps import Diffmaps
+from .diffmaps import DiffusionMaps
